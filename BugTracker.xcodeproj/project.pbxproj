@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787B508F2A55F9BA0076326F /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B508E2A55F9BA0076326F /* IssueView.swift */; };
+		787B50912A55F9C50076326F /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B50902A55F9C50076326F /* NoIssueView.swift */; };
 		78ADAB8629AD162900ED6094 /* BugTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ADAB8529AD162900ED6094 /* BugTrackerApp.swift */; };
 		78ADAB8829AD162900ED6094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ADAB8729AD162900ED6094 /* ContentView.swift */; };
 		78ADAB8A29AD162A00ED6094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ADAB8929AD162A00ED6094 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		787B508E2A55F9BA0076326F /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		787B50902A55F9C50076326F /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 		78ADAB8229AD162900ED6094 /* BugTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BugTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78ADAB8529AD162900ED6094 /* BugTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugTrackerApp.swift; sourceTree = "<group>"; };
 		78ADAB8729AD162900ED6094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				78ADAB9B29AF917200ED6094 /* DetailView.swift */,
 				78ADAB9429AD165C00ED6094 /* Main.xcdatamodeld */,
 				78ADAB9729AD17BD00ED6094 /* DataController.swift */,
+				787B508E2A55F9BA0076326F /* IssueView.swift */,
+				787B50902A55F9C50076326F /* NoIssueView.swift */,
 				78ADAB8929AD162A00ED6094 /* Assets.xcassets */,
 				78ADAB8B29AD162A00ED6094 /* BugTracker.entitlements */,
 				78ADAB8C29AD162A00ED6094 /* Preview Content */,
@@ -171,6 +177,8 @@
 				78ADAB8829AD162900ED6094 /* ContentView.swift in Sources */,
 				78ADABA029B0D28E00ED6094 /* Issue-CoreDataHelper.swift in Sources */,
 				78ADABA229B0D2F700ED6094 /* Tag-CoreDataHelper.swift in Sources */,
+				787B508F2A55F9BA0076326F /* IssueView.swift in Sources */,
+				787B50912A55F9C50076326F /* NoIssueView.swift in Sources */,
 				78ADABA429B0D8DE00ED6094 /* IssueRow.swift in Sources */,
 				78ADAB8629AD162900ED6094 /* BugTrackerApp.swift in Sources */,
 			);

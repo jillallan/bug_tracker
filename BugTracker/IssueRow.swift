@@ -24,7 +24,7 @@ struct IssueRow: View {
                         .lineLimit(1)
 //                        .lineLimit(2...2)
 
-                    Text("No tags")
+                    Text(issue.issueTagsList)
                         .foregroundStyle(.secondary)
                         .lineLimit(1)
                 }
